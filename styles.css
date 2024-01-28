@@ -1,0 +1,53 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    justify-content: center;
+    background-color:black ;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+        }
+
+
+
+p{ text-align: center;
+ color: fuchsia;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 40px;
+ font-style: italic;
+ margin-top: 230px ;
+ 
+}
+button{cursor: pointer;
+    position:absolute;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px ;
+   left: 0px;
+   top: 0px;
+   
+}
+#No{
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 30px ;
+}
+#yes{position: relative;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    background-color: blueviolet;
+    color:black;
+    border-color:rgb(12, 12, 12);
+    border-radius: 30px ;
+    font-weight: bold;
+    border: 2px solid ;
+  margin-right: 200px;
+  margin-top: 80px;
+   }
